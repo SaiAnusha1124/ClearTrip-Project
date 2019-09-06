@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="Failed suite [cleartrip]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="classes" name="ticketbooking(failed)">
+    <classes>
+      <class name="com.roundwaycleartrip.testscripts.ClearTripAssignment_Roundtrip">
+        <methods>
+          <include name="oneWayTrip" invocation-numbers="0"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- com.roundwaycleartrip.testscripts.ClearTripAssignment_Roundtrip -->
+    </classes>
+  </test> <!-- ticketbooking(failed) -->
+</suite> <!-- Failed suite [cleartrip] -->

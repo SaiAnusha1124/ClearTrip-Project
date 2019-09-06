@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="classes" name="cleartrip">
+  <test thread-count="2" parallel="classes" name="ticketbooking">
+    <classes>
+      <class name="com.onewaycleartrip.testscripts.ClearTripAssignment_oneway"/>
+      <class name="com.roundwaycleartrip.testscripts.ClearTripAssignment_Roundtrip"/>
+    </classes>
+  </test> <!-- ticketbooking -->
+</suite> <!-- cleartrip -->

@@ -1,0 +1,13 @@
+<suite name="Test-class Suite" parallel="tests" thread-count="2">
+<test thread-count="5" name="Test1">
+   <classes>
+     <class name="com.onewaycleartrip.testscripts.ClearTripAssignment"/>
+   </classes>
+ </test> <!-- Test1 -->
+ <test thread-count="5" name="Test2">
+ <parameter name="selecteddriver" value="firefox" />
+   <classes>
+     <class name="com.onewaycleartrip.testscripts.ClearTripAssignment"/>
+   </classes>
+ </test> <!-- Test2 -->
+   </suite>

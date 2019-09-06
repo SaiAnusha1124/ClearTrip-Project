@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Test-class Suite]">
+  <test thread-count="2" parallel="tests" name="Test1(failed)">
+    <classes>
+      <class name="com.onewaycleartrip.testscripts.ClearTripAssignment">
+        <methods>
+          <include name="fromPlace" invocation-numbers="0"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- com.onewaycleartrip.testscripts.ClearTripAssignment -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+  <test thread-count="2" parallel="tests" name="Test2(failed)">
+    <parameter name="selecteddriver" value="firefox"/>
+    <classes>
+      <class name="com.onewaycleartrip.testscripts.ClearTripAssignment">
+        <methods>
+          <include name="fromPlace" invocation-numbers="0"/>
+          <include name="initializeBrowser"/>
+        </methods>
+      </class> <!-- com.onewaycleartrip.testscripts.ClearTripAssignment -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Test-class Suite] -->
